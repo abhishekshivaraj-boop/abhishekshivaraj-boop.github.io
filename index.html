@@ -1,67 +1,106 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abhishek | Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>Abhishek </h1>
-        <p>Java Developer | Web Developer</p>
-    </header>
 
-    <!-- About -->
-    <section>
-        <h2>About Me</h2>
-        <p>
-            I am a passionate developer with knowledge of Core Java,
-            HTML, CSS, JavaScript, and MySQL. I enjoy building simple
-            applications and learning new technologies.
-        </p>
-    </section>
+<nav>
+<h2>Abhishek</h2>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
 
-    <!-- Skills -->
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Core Java</li>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <li>MySQL</li>
-        </ul>
-    </section>
 
-    <!-- Projects -->
-    <section>
-        <h2>Projects</h2>
+<section class="hero">
+<h1>Hi, I'm Abhishek</h1>
+<h3 id="typing"></h3>
+<p>A passionate developer building modern applications.</p>
+<a href="#projects" class="btn">View My Work</a>
+</section>
 
-        <div class="project">
-            <h3>Student Management System</h3>
-            <h3>Slay-it ecommerce</h3>
-            <h4>personal portfolio</h4>
-        
-        </div>
+<!-- About -->
+<section id="about" class="reveal">
+<h2>About Me</h2>
+<p>
+I am a passionate developer skilled in Java, Web Development,
+and databases. I enjoy creating applications and continuously
+learning new technologies.
+</p>
+</section>
 
-        <div class="project">
-            <h3>Login Page</h3>
-            <p>Simple login page using HTML, CSS, and JavaScript.</p>
-        </div>
-    </section>
+<!-- Skills -->
+<section id="skills" class="reveal">
+<h2>Skills</h2>
 
-    <!-- Contact -->
-    <section>
-        <h2>Contact</h2>
-        <p>Email: abhishek.shivaraj@campusuvce.in</p>
-        <p>GitHub:https://github.com/abhishekshivaraj-boop </p>
-    </section>
+<div class="skill">
+<p>Java</p>
+<div class="bar"><div class="progress" data-width="90%"></div></div>
+</div>
 
-    <footer>
-        <p>© 2026 Abhishek </p>
-    </footer>
+<div class="skill">
+<p>HTML & CSS</p>
+<div class="bar"><div class="progress" data-width="85%"></div></div>
+</div>
+
+<div class="skill">
+<p>JavaScript</p>
+<div class="bar"><div class="progress" data-width="75%"></div></div>
+</div>
+
+<div class="skill">
+<p>MySQL</p>
+<div class="bar"><div class="progress" data-width="80%"></div></div>
+</div>
+
+</section>
+
+
+<section id="projects" class="reveal">
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>Student Management System</h3>
+<p>Java + MySQL application for managing student records.</p>
+</div>
+
+<div class="card">
+<h3>Slay-it Ecommerce</h3>
+<p>Ecommerce web app built with HTML, CSS and JavaScript.</p>
+</div>
+
+<div class="card">
+<h3>Personal Portfolio</h3>
+<p>Responsive developer portfolio website.</p>
+</div>
+
+</div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="reveal">
+<h2>Contact</h2>
+<p>Email: abhishek.shivaraj@campusuvce.in</p>
+<p>Phone: +91 8073005736</p>
+<p>GitHub: github.com/abhishekshivaraj-boop</p>
+</section>
+
+<footer>
+<p>© 2026 Abhishek</p>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
